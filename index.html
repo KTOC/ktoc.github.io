@@ -42,15 +42,20 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=155508342');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3089180566');
       });
     }
   </script><!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
-  <!-- Add Firebase products that you want to use -->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+<!--  <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>-->
+<!--  <script defer src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>-->
+<!--  <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-firestore.js"></script>-->
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
+<!--  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>-->
+<!--  <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>-->
+<!--  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>-->
   <script>
-  // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBblAeL3ybQtOy1VrEWPpUZuEOszj4Ylms",
     authDomain: "ums-test-308504.firebaseapp.com",
@@ -59,9 +64,8 @@
     messagingSenderId: "917390237462",
     appId: "1:917390237462:web:7397a4250602eab2bdfa37"
   };
-  // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-  <script src="main.dart.js?version=fs.1.1" type="application/javascript"></script>
+  <script src="main.dart.js?version=fs.1.2" type="application/javascript"></script>
 </body>
 </html>
